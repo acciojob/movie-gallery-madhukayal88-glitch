@@ -1,16 +1,61 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Gallery</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .gallery-img {
+            width: 100px; /* Set image width */
+            height: 100px; /* Set image height */
+            object-fit: cover; /* Maintain aspect ratio */
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="container-fluid">
+        <!-- First Row: 12 images -->
+        <div class="row">
+            <div class="col-sm-1"><img src="https://via.placeholder.com/100" alt="Movie 1" class="gallery-img"></div>
+            <div class="col-sm-1"><img src="https://via.placeholder.com/100" alt="Movie 2" class="gallery-img"></div>
+            <div class="col-sm-1"><img src="https://via.placeholder.com/100" alt="Movie 3" class="gallery-img"></div>
+            <div class="col-sm-1"><img src="https://via.placeholder.com/100" alt="Movie 4" class="gallery-img"></div>
+            <div class="col-sm-1"><img src="https://via.placeholder.com/100" alt="Movie 5" class="gallery-img"></div>
+            <div class="col-sm-1"><img src="https://via.placeholder.com/100" alt="Movie 6" class="gallery-img"></div>
+            <div class="col-sm-1"><img src="https://via.placeholder.com/100" alt="Movie 7" class="gallery-img"></div>
+            <div class="col-sm-1"><img src="https://via.placeholder.com/100" alt="Movie 8" class="gallery-img"></div>
+            <div class="col-sm-1"><img src="https://via.placeholder.com/100" alt="Movie 9" class="gallery-img"></div>
+            <div class="col-sm-1"><img src="https://via.placeholder.com/100" alt="Movie 10" class="gallery-img"></div>
+            <div class="col-sm-1"><img src="https://via.placeholder.com/100" alt="Movie 11" class="gallery-img"></div>
+            <div class="col-sm-1"><img src="https://via.placeholder.com/100" alt="Movie 12" class="gallery-img"></div>
+        </div>
 
+        <!-- Second Row: 6 images -->
+        <div class="row">
+            <div class="col-sm-2"><img src="https://via.placeholder.com/100" alt="Movie 13" class="gallery-img"></div>
+            <div class="col-sm-2"><img src="https://via.placeholder.com/100" alt="Movie 14" class="gallery-img"></div>
+            <div class="col-sm-2"><img src="https://via.placeholder.com/100" alt="Movie 15" class="gallery-img"></div>
+            <div class="col-sm-2"><img src="https://via.placeholder.com/100" alt="Movie 16" class="gallery-img"></div>
+            <div class="col-sm-2"><img src="https://via.placeholder.com/100" alt="Movie 17" class="gallery-img"></div>
+            <div class="col-sm-2"><img src="https://via.placeholder.com/100" alt="Movie 18" class="gallery-img"></div>
+        </div>
+
+        <!-- Third Row: 3 images -->
+        <div class="row">
+            <div class="col-sm-4"><img src="https://via.placeholder.com/100" alt="Movie 19" class="gallery-img"></div>
+            <div class="col-sm-4"><img src="https://via.placeholder.com/100" alt="Movie 20" class="gallery-img"></div>
+            <div class="col-sm-4"><img src="https://via.placeholder.com/100" alt="Movie 21" class="gallery-img"></div>
+        </div>
+
+        <!-- Fourth Row: 1 image -->
+        <div class="row">
+            <div class="col-sm-12"><img src="https://via.placeholder.com/100" alt="Movie 22" class="gallery-img"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
 </body>
-
 </html>
